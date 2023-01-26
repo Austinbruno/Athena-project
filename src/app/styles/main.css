@@ -1,0 +1,438 @@
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Light.eot");
+  src: local("GT Walsheim Pro Light"), local("font/GTWalsheimPro-Light"), url("font/GTWalsheimPro-Light.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Light.woff2") format("woff2"), url("font/GTWalsheimPro-Light.woff") format("woff"), url("font/GTWalsheimPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Regular.eot");
+  src: local("GT Walsheim Pro Regular"), local("font/GTWalsheimPro-Regular"), url("font/GTWalsheimPro-Regular.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Regular.woff2") format("woff2"), url("font/GTWalsheimPro-Regular.woff") format("woff"), url("font/GTWalsheimPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-ThinOblique.eot");
+  src: local("GT Walsheim Pro Thin Oblique"), local("font/GTWalsheimPro-ThinOblique"), url("font/GTWalsheimPro-ThinOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-ThinOblique.woff2") format("woff2"), url("font/GTWalsheimPro-ThinOblique.woff") format("woff"), url("font/GTWalsheimPro-ThinOblique.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Thin.eot");
+  src: local("GT Walsheim Pro Thin"), local("font/GTWalsheimPro-Thin"), url("font/GTWalsheimPro-Thin.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Thin.woff2") format("woff2"), url("font/GTWalsheimPro-Thin.woff") format("woff"), url("font/GTWalsheimPro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-BoldOblique.eot");
+  src: local("GT Walsheim Pro Bold Oblique"), local("font/GTWalsheimPro-BoldOblique"), url("font/GTWalsheimPro-BoldOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-BoldOblique.woff2") format("woff2"), url("font/GTWalsheimPro-BoldOblique.woff") format("woff"), url("font/GTWalsheimPro-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Ultra";
+  src: url("font/GTWalsheimPro-UltraBold.eot");
+  src: local("GT Walsheim Pro Ultra Bold"), local("font/GTWalsheimPro-UltraBold"), url("font/GTWalsheimPro-UltraBold.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-UltraBold.woff2") format("woff2"), url("font/GTWalsheimPro-UltraBold.woff") format("woff"), url("font/GTWalsheimPro-UltraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Ultra";
+  src: url("font/GTWalsheimPro-UltraBoldOblique.eot");
+  src: local("GT Walsheim Pro Ultra Bold Oblique"), local("font/GTWalsheimPro-UltraBoldOblique"), url("font/GTWalsheimPro-UltraBoldOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-UltraBoldOblique.woff2") format("woff2"), url("font/GTWalsheimPro-UltraBoldOblique.woff") format("woff"), url("font/GTWalsheimPro-UltraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-MediumOblique.eot");
+  src: local("GT Walsheim Pro Medium Oblique"), local("font/GTWalsheimPro-MediumOblique"), url("font/GTWalsheimPro-MediumOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-MediumOblique.woff2") format("woff2"), url("font/GTWalsheimPro-MediumOblique.woff") format("woff"), url("font/GTWalsheimPro-MediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Bold.eot");
+  src: local("GT Walsheim Pro Bold"), local("font/GTWalsheimPro-Bold"), url("font/GTWalsheimPro-Bold.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Bold.woff2") format("woff2"), url("font/GTWalsheimPro-Bold.woff") format("woff"), url("font/GTWalsheimPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Medium.eot");
+  src: local("GT Walsheim Pro Medium"), local("font/GTWalsheimPro-Medium"), url("font/GTWalsheimPro-Medium.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Medium.woff2") format("woff2"), url("font/GTWalsheimPro-Medium.woff") format("woff"), url("font/GTWalsheimPro-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-RegularOblique.eot");
+  src: local("GT Walsheim Pro Regular Oblique"), local("font/GTWalsheimPro-RegularOblique"), url("font/GTWalsheimPro-RegularOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-RegularOblique.woff2") format("woff2"), url("font/GTWalsheimPro-RegularOblique.woff") format("woff"), url("font/GTWalsheimPro-RegularOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-LightOblique.eot");
+  src: local("GT Walsheim Pro Light Oblique"), local("font/GTWalsheimPro-LightOblique"), url("font/GTWalsheimPro-LightOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-LightOblique.woff2") format("woff2"), url("font/GTWalsheimPro-LightOblique.woff") format("woff"), url("font/GTWalsheimPro-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Ultra";
+  src: url("font/GTWalsheimPro-UltraLight.eot");
+  src: local("GT Walsheim Pro Ultra Light"), local("font/GTWalsheimPro-UltraLight"), url("font/GTWalsheimPro-UltraLight.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-UltraLight.woff2") format("woff2"), url("font/GTWalsheimPro-UltraLight.woff") format("woff"), url("font/GTWalsheimPro-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Ultra";
+  src: url("font/GTWalsheimPro-UltraLightOblique.eot");
+  src: local("GT Walsheim Pro Ultra Light Oblique"), local("font/GTWalsheimPro-UltraLightOblique"), url("font/GTWalsheimPro-UltraLightOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-UltraLightOblique.woff2") format("woff2"), url("font/GTWalsheimPro-UltraLightOblique.woff") format("woff"), url("font/GTWalsheimPro-UltraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-BlackOblique.eot");
+  src: local("GT Walsheim Pro Black Oblique"), local("font/GTWalsheimPro-BlackOblique"), url("font/GTWalsheimPro-BlackOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-BlackOblique.woff2") format("woff2"), url("font/GTWalsheimPro-BlackOblique.woff") format("woff"), url("font/GTWalsheimPro-BlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("font/GTWalsheimPro-Black.eot");
+  src: local("GT Walsheim Pro Black"), local("font/GTWalsheimPro-Black"), url("font/GTWalsheimPro-Black.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-Black.woff2") format("woff2"), url("font/GTWalsheimPro-Black.woff") format("woff"), url("font/GTWalsheimPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Cond Ultra";
+  src: url("font/GTWalsheimPro-CondensedUltraBold.eot");
+  src: local("GT Walsheim Pro Condensed Ultra Bold"), local("font/GTWalsheimPro-CondensedUltraBold"), url("font/GTWalsheimPro-CondensedUltraBold.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedUltraBold.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedUltraBold.woff") format("woff"), url("font/GTWalsheimPro-CondensedUltraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedLight.eot");
+  src: local("GT Walsheim Pro Condensed Light"), local("font/GTWalsheimPro-CondensedLight"), url("font/GTWalsheimPro-CondensedLight.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedLight.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedLight.woff") format("woff"), url("font/GTWalsheimPro-CondensedLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedBoldOblique.eot");
+  src: local("GT Walsheim Pro Condensed Bold Oblique"), local("font/GTWalsheimPro-CondensedBoldOblique"), url("font/GTWalsheimPro-CondensedBoldOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedBoldOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedBoldOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedBoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedLightOblique.eot");
+  src: local("GT Walsheim Pro Condensed Light Oblique"), local("font/GTWalsheimPro-CondensedLightOblique"), url("font/GTWalsheimPro-CondensedLightOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedLightOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedLightOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedLightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedThin.eot");
+  src: local("GT Walsheim Pro Condensed Thin"), local("font/GTWalsheimPro-CondensedThin"), url("font/GTWalsheimPro-CondensedThin.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedThin.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedThin.woff") format("woff"), url("font/GTWalsheimPro-CondensedThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font/GTWalsheimPro-CondensedULightIt";
+  src: url("font/GTWalsheimPro-CondensedUltraLightOblique.eot");
+  src: local("GT Walsheim Pro Condensed Ultra Light Oblique"), local("font/GTWalsheimPro-CondensedUltraLightOblique"), url("font/GTWalsheimPro-CondensedUltraLightOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedUltraLightOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedUltraLightOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedUltraLightOblique.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Cond";
+  src: url("font/GTWalsheimPro-CondensedMedium.eot");
+  src: local("GT Walsheim Pro Condensed Medium"), local("font/GTWalsheimPro-CondensedMedium"), url("font/GTWalsheimPro-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedMedium.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedMedium.woff") format("woff"), url("font/GTWalsheimPro-CondensedMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedBlackOblique.eot");
+  src: local("GT Walsheim Pro Condensed Black Oblique"), local("font/GTWalsheimPro-CondensedBlackOblique"), url("font/GTWalsheimPro-CondensedBlackOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedBlackOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedBlackOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedBlackOblique.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedRegular.eot");
+  src: local("GT Walsheim Pro Condensed Regular"), local("font/GTWalsheimPro-CondensedRegular"), url("font/GTWalsheimPro-CondensedRegular.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedRegular.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedRegular.woff") format("woff"), url("font/GTWalsheimPro-CondensedRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedThinOblique.eot");
+  src: local("GT Walsheim Pro Condensed Thin Oblique"), local("font/GTWalsheimPro-CondensedThinOblique"), url("font/GTWalsheimPro-CondensedThinOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedThinOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedThinOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedThinOblique.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedBold.eot");
+  src: local("GT Walsheim Pro Condensed Bold"), local("font/GTWalsheimPro-CondensedBold"), url("font/GTWalsheimPro-CondensedBold.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedBold.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedBold.woff") format("woff"), url("font/GTWalsheimPro-CondensedBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedRegularOblique.eot");
+  src: local("GT Walsheim Pro Condensed Regular Oblique"), local("font/GTWalsheimPro-CondensedRegularOblique"), url("font/GTWalsheimPro-CondensedRegularOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedRegularOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedRegularOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedRegularOblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "font/GTWalsheimPro-CondensedULight";
+  src: url("font/GTWalsheimPro-CondensedUltraLight.eot");
+  src: local("GT Walsheim Pro Condensed Ultra Light"), local("font/GTWalsheimPro-CondensedUltraLight"), url("font/GTWalsheimPro-CondensedUltraLight.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedUltraLight.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedUltraLight.woff") format("woff"), url("font/GTWalsheimPro-CondensedUltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Cond Ultra";
+  src: url("font/GTWalsheimPro-CondensedUltraBoldOblique.eot");
+  src: local("GT Walsheim Pro Condensed Ultra Bold Oblique"), local("font/GTWalsheimPro-CondensedUltraBoldOblique"), url("font/GTWalsheimPro-CondensedUltraBoldOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedUltraBoldOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedUltraBoldOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedUltraBoldOblique.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Cond";
+  src: url("font/GTWalsheimPro-CondensedMediumOblique.eot");
+  src: local("GT Walsheim Pro Condensed Medium Oblique"), local("font/GTWalsheimPro-CondensedMediumOblique"), url("font/GTWalsheimPro-CondensedMediumOblique.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedMediumOblique.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedMediumOblique.woff") format("woff"), url("font/GTWalsheimPro-CondensedMediumOblique.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "GT Walsheim Pro Condensed";
+  src: url("font/GTWalsheimPro-CondensedBlack.eot");
+  src: local("GT Walsheim Pro Condensed Black"), local("font/GTWalsheimPro-CondensedBlack"), url("font/GTWalsheimPro-CondensedBlack.eot?#iefix") format("embedded-opentype"), url("font/GTWalsheimPro-CondensedBlack.woff2") format("woff2"), url("font/GTWalsheimPro-CondensedBlack.woff") format("woff"), url("font/GTWalsheimPro-CondensedBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "GT Walsheim Pro";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+body .navbar {
+  background-color: rgb(15, 15, 15);
+  position: fixed;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4.5rem;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+body .navbar .logo-links {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+body .navbar .logo-links .logo {
+  width: 36px;
+  height: 36px;
+}
+body .navbar .logo-links ul {
+  display: flex;
+  margin-left: 24px;
+  align-items: center;
+}
+body .navbar .logo-links ul .nestedLinks {
+  display: none;
+}
+body .navbar .logo-links ul .links {
+  display: flex;
+  align-items: center;
+  min-height: 4.5rem;
+}
+body .navbar .logo-links ul .links .link-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+body .navbar .logo-links ul .links .link-icon a {
+  min-width: 100px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+body .navbar .logo-links ul .links .link-icon a i {
+  margin-left: 10px;
+}
+body .navbar .logo-links ul .links:hover {
+  transition: all background-color 0.5s;
+  background-color: #1b1b1b;
+  border-radius: 15px;
+}
+body .navbar .logo-links ul .links:hover i {
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(180deg);
+}
+body .navbar .logo-links ul .links:hover .nestedLinks {
+  display: flex;
+  position: absolute;
+  bottom: -60px;
+  width: 15rem;
+  height: 8rem;
+  background-color: #fff;
+  box-shadow: 3px 3px 11px -9px #000;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate3d(0px, 4rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+body .navbar .logo-links ul .links:hover .nestedLinks a {
+  padding: 1rem;
+  color: rgb(15, 15, 15);
+}
+body .navbar .logo-links ul .links:hover .nestedLinks a:hover {
+  text-decoration: underline;
+  color: #0043ce;
+}
+body .navbar .logo-links ul a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+body .navbar .logo-links ul a li {
+  margin: 8px;
+  color: white;
+  text-decoration: underline;
+  font-size: 16px;
+}
+body .navbar .logo-links ul a i {
+  color: white;
+}
+body .navbar .bookDemo {
+  color: white;
+  background-image: linear-gradient(135deg, #0084e9, #762cec);
+  border-radius: 5px;
+  padding: 12px 24px;
+  text-align: center;
+}
+body .showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 112px;
+  margin-bottom: 48px;
+}
+body .showcase h1 {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+  width: 768px;
+}
+body .showcase p {
+  color: #4d4d4d;
+  font-size: 18px;
+  line-height: 27px;
+  width: 768px;
+  text-align: center;
+}
+body .showcase a {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  margin-top: 32px;
+}
+body .showcase a:hover {
+  outline: 2px solid black;
+}
+body .animate {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 4.5rem;
+  position: relative;
+}
+body .animate .animation {
+  z-index: -50;
+}
+body .animate .text {
+  display: flex;
+  height: 100vh;
+  padding: 2.5rem;
+  padding-top: 100px;
+}
+body .animate .text h2 {
+  background-image: linear-gradient(60deg, #ff3a7c, #741eff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 22.4px;
+  width: 155.52px;
+  height: 34px;
+  font-weight: 600px;
+  line-height: 33.6px;
+}
+body .animate .text h1 {
+  width: 436.359px;
+  height: 72.781px;
+  font-size: 48px;
+  font-weight: 600px;
+  line-height: 57.6px;
+}
+body .animate .text p {
+  width: 436.36px;
+  height: 81px;
+  font-size: 18px;
+  color: #4d4d4d;
+}
+body .animate .video {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: -50;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-top: 100px;
+  width: 90%;
+}
+body .animate .video video {
+  width: 720px;
+  height: 400px;
+  margin: auto;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=main.css.map */
